@@ -1,0 +1,115 @@
+{
+    "services": [
+      {
+        "id": 1,
+        "title": "Event Planning",
+        "image": "https://i.ibb.co/cxVRcnd/Event-Planning.webp",
+        "price": "$5000",
+        "description": "Our event planning service covers every aspect, from conceptualization and theme design to meticulous execution. We ensure every detail is taken care of, making your tech and gaming event an unforgettable experience.",
+        "duration": "3-6 months",
+        "features": ["Full event conceptualization", "Detailed execution plan", "Theme design"]
+      },
+      
+      {
+        "id": 2,
+        "title": "Venue Selection",
+        "image": "https://i.ibb.co/6RM1Vsw/Venue-Selection.jpg",
+        "price": "$1000",
+        "description": "We'll help you discover the perfect venue for your tech and gaming event, considering factors such as location, capacity, and technical requirements. Your event's success starts with the right location.",
+        "duration": "1-2 months",
+        "features": ["Location scouting", "Capacity analysis", "Technical requirements assessment"]
+      },
+      {
+        "id": 3,
+        "title": "Promotion and Marketing",
+        "image": "https://i.ibb.co/qMv8H6W/Promotion-and-Marketing.webp",
+        "price": "$2000",
+        "description": "Our comprehensive marketing strategy will put your event in the spotlight. We utilize a range of online and offline channels, including social media, email campaigns, and influencer partnerships, to ensure maximum exposure.",
+        "duration": "2-4 months",
+        "features": ["Social media campaigns", "Influencer partnerships", "Email marketing"]
+      },
+      {
+        "id": 4,
+        "title": "Ticketing and Registration",
+        "image": "https://i.ibb.co/dBdh4wp/Ticketing-and-Registration.png",
+        "price": "$500",
+        "description": "We provide a seamless ticketing and registration system for your attendees. With real-time analytics and a user-friendly interface, managing ticket sales and guest lists has never been easier.",
+        "duration": "2-3 weeks",
+        "features": ["User-friendly ticketing system", "Real-time analytics", "Guest list management"]
+      },
+      {
+        "id": 5,
+        "title": "Technical Support",
+        "image": "https://i.ibb.co/WV3cKkf/Technical-Support.jpg",
+        "price": "$1500",
+        "description": "Our on-site technical support team ensures all your gaming equipment and tech setups run smoothly during the event. From troubleshooting to maintenance, we've got you covered.",
+        "duration": "1-5 days",
+        "features": ["On-site tech experts", "Troubleshooting support", "Equipment maintenance"]
+      },
+      {
+        "id": 6,
+        "title": "Sponsorship and Partnerships",
+        "image": "https://i.ibb.co/5FJmmP7/Sponsorship-and-Partnerships.jpg",
+        "price": "$3000",
+        "description": "Securing sponsorships and partnerships is our forte. We'll connect you with tech and gaming companies to enhance your event's budget and offerings, creating a win-win for all parties involved.",
+        "duration": "3-6 months",
+        "features": ["Sponsorship negotiation", "Partnership development", "Budget enhancement"]
+      },
+      {
+        "id": 7,
+        "title": "Virtual Reality Integration",
+        "image": "https://i.ibb.co/yY5dJgx/Virtual-Reality-Integration.jpg",
+        "price": "$2500",
+        "description": "Immerse your attendees in the world of virtual reality with our integration services. Your event will offer cutting-edge VR experiences that captivate and engage your audience.",
+        "duration": "1-2 months",
+        "features": ["Cutting-edge VR experiences", "Audience engagement", "VR setup"]
+      },
+      {
+        "id": 8,
+        "title": "Cosplay Contest Management",
+        "image": "https://i.ibb.co/hmf7nph/Dragoon-Cos.webp",
+        "price": "$800",
+        "description": "Our comprehensive cosplay contest management includes judging, prize coordination, and professional photography to make sure your event's cosplayers shine.",
+        "duration": "2-3 weeks",
+        "features": ["Cosplay judging", "Prize coordination", "Professional cosplay photography"]
+      },
+      {
+        "id": 9,
+        "title": "Live Streaming Services",
+        "image": "https://i.ibb.co/BGJ9SFk/Live-Streaming-Services.webp",
+        "price": "$1200",
+        "description": "We provide professional live streaming services, allowing your event to reach a global audience. We handle the technical aspects, so you can focus on your event's success.",
+        "duration": "1-2 days",
+        "features": ["Professional live streaming", "Global audience reach", "Technical support"]
+      },
+
+      {
+        "id": 10,
+        "title": "Gaming Tournaments",
+        "image": "https://i.ibb.co/xM3mhzp/Gaming-tounarment.jpg",
+        "price": "$3000",
+        "description": "Our team manages e-sports tournaments within your event, with brackets, referees, and live commentary. Elevate your gaming event to a competitive level.",
+        "duration": "1-2 days",
+        "features": ["E-sports tournament management", "Brackets and referees", "Live commentary"]
+      },
+      {
+        "id": 11,
+        "title": "Tech Demos and Workshops",
+        "image": "https://i.ibb.co/cxVRcnd/Event-Planning.webp",
+        "price": "$1500",
+        "description": "Engage your attendees with interactive tech demos and workshops. They'll have the opportunity for hands-on experience with the latest gadgets and innovations.",
+        "duration": "1-3 days",
+        "features": ["Interactive tech demos", "Hands-on experience", "Cutting-edge tech"]
+      },
+      {
+        "id": 12,
+        "title": "Exclusive Merchandise Sales",
+        "image": "https://i.ibb.co/JyYj1nb/Exclusive-Merchandise-Sales.jpg",
+        "price": "Varies",
+        "description": "We offer exclusive event merchandise, including limited edition t-shirts, posters, and collectibles. Attendees can take home unique souvenirs from your event.",
+        "duration": "Throughout the event",
+        "features": ["Exclusive event merchandise", "Limited edition items", "Unique souvenirs"]
+      }
+    ]
+  }
+  
