@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { signInWithPopup, updateProfile } from 'firebase/auth';
 import auth from '../../Firebase/firebase.config';
 import { GoogleAuthProvider } from "firebase/auth";
+import { toast } from 'react-toastify';
 export const Registration = () => {
   const [error, seterror] = useState(null);
   const { createUser  } = useContext(AuthContext);
@@ -19,11 +20,20 @@ export const Registration = () => {
     createUser(email, password)
 
       .then(() => {
-
+        toast.success('Registration successful', {
+          position: 'bottom-right',
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: 'colored',
+        });
         updateProfile(auth.currentUser, {
           displayName: name,
         }).then(() => {
-          navigate("/login");
+          navigate("/");
         }).catch((error) => {
           seterror(error.message);
         });

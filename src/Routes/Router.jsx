@@ -12,6 +12,7 @@ import { Login } from '../pages/Auth/Login';
 import { Registration } from '../pages/Auth/Registration';
 import { Servicedetails } from '../Components/Catagories/Servicedetails';
 import Privaterout from './Privaterout';
+import NotFoundPage from '../pages/NotFoundPage';
   const router = createBrowserRouter([
     {
       path: "/",
@@ -48,6 +49,10 @@ import Privaterout from './Privaterout';
             element: <Registration/>,
             
         
+        },
+        {
+          path: '*', 
+          element: <NotFoundPage/>, // Create and import your 404 page component
         }
       ]
     },

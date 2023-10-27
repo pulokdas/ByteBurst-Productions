@@ -1,8 +1,8 @@
 import React, { useContext, useState } from 'react'
 import { AuthContext } from '../../Components/provider/Authprovider';
 import { useNavigate } from "react-router-dom";
-import { ToastContainer, toast } from 'react-toastify';
-
+import {  ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 export const Login = () => {
   const [error , seterror]= useState(null);
   const {SignInUser} = useContext( AuthContext );
@@ -17,7 +17,16 @@ export const Login = () => {
     SignInUser(email, password)
       .then(()=>{
         
-        
+        toast.success('Login successful', {
+          position: 'bottom-right',
+          autoClose: 2000, 
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: 'colored',
+        });
            
           
             navigate('/');
@@ -28,7 +37,7 @@ export const Login = () => {
         seterror(error.message);
         
       }   )
-
+      
   }
   return (
     <div>
@@ -88,7 +97,7 @@ export const Login = () => {
 </div>
 
     </div>
-  
+    
     </div>
     
   )

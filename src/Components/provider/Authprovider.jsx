@@ -2,6 +2,7 @@ import React, { createContext, useEffect, useState } from 'react'
 import auth from '../../Firebase/firebase.config'
 import { createUserWithEmailAndPassword, onAuthStateChanged, signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { GoogleAuthProvider } from "firebase/auth";
+import { toast } from 'react-toastify';
 
 
 
@@ -28,6 +29,16 @@ export  const Authprovider = ({children}) => {
     }
     const SignInUser =(email, password)=>{
         setloading(true)
+        toast.success('Login successful', {
+          position: 'bottom-right',
+          autoClose: 2000, // Close the toast after 2 seconds
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: 'colored',
+        });
        return signInWithEmailAndPassword(auth, email, password)
     }
     const logOut =()=>{

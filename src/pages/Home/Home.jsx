@@ -3,6 +3,7 @@ import { Hero } from '../../Components/Header/Hero'
 import { Services } from '../../Components/Catagories/Services'
 import { useLoaderData } from 'react-router-dom'
 import Footer from '../../Components/footer/Footer'
+import { ToastContainer } from 'react-toastify'
 
 
 export const Home = () => {
@@ -16,6 +17,7 @@ export const Home = () => {
       <Services  data={data}/>
     </div>
     <Footer/>
+    <ToastContainer />
    </div>
   )
 }

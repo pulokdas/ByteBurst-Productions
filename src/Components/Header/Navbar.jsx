@@ -10,8 +10,8 @@ export const Navbar = () => {
         .catch()
     }
     return (
-        <nav className="mx-auto block w-full max-w-screen-xl rounded-xl border border-[#181818]/80  bg-opacity-80 py-2 px-4  shadow-xl backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4  text-white bg-[#181818]">
-            <div>
+        <nav className="mx-auto  w-full  rounded-xl border border-[#181818]/80  bg-opacity-80 py-2 px-4  shadow-xl backdrop-blur-2xl backdrop-saturate-200 lg:px-8 lg:py-4  text-white bg-[#222224]">
+            <div className='w-11/12 mx-auto'>
                 <div className="container mx-auto flex items-center justify-between ">
                     <NavLink to="/" className="mr-4 block cursor-pointer py-1.5 font-sans text-sm font-normal leading-normal text-inherit ">
                         <span>ByteBurst Productions</span>
