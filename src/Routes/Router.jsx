@@ -14,6 +14,7 @@ import { Servicedetails } from '../Components/Catagories/Servicedetails';
 import Privaterout from './Privaterout';
 import NotFoundPage from '../pages/NotFoundPage';
 import Events from '../pages/Events/Events';
+import AboutUs from '../pages/AboutUs';
   const router = createBrowserRouter([
     {
       path: "/",
@@ -43,6 +44,10 @@ import Events from '../pages/Events/Events';
           path: "/events",
           element: <Privaterout><Events/></Privaterout>,
           loader: ()=> fetch('/events.json'),
+        },
+        {
+          path: "/aboutUs",
+          element:<AboutUs/>
         },
         {
             path: "/login",

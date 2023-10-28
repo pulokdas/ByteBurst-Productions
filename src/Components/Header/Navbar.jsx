@@ -32,19 +32,20 @@ export const Navbar = () => {
                             </NavLink>
                         </li>
                         <li className=" p-1 font-sans text-sm font-normal leading-normal text-inherit ">
-                            <NavLink to="/blocks" className={({ isActive, isPending }) =>
-                                isPending ? "pending" : isActive ? " text-[#edac07]" : ""
-                            }>
-                                ABOUT US
-                            </NavLink>
-                        </li>
-                        <li className=" p-1 font-sans text-sm font-normal leading-normal text-inherit ">
                             <NavLink to="/events" className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? " text-[#edac07]" : ""
                             }>
                                 EVENTS
                             </NavLink>
                         </li>
+                        <li className=" p-1 font-sans text-sm font-normal leading-normal text-inherit ">
+                            <NavLink to="/aboutUs" className={({ isActive, isPending }) =>
+                                isPending ? "pending" : isActive ? " text-[#edac07]" : ""
+                            }>
+                                ABOUT US
+                            </NavLink>
+                        </li>
+                       
                     </ul>
                     {
                         user ?   <div className='flex gap-2'>
