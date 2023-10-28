@@ -32,7 +32,7 @@ const EventCard = (event) => {
     });// Initialize AOS in your component if you didn't do it in the main application file
   }, []);
   return (
-    <div data-aos="zoom-in" className="card lg:card-side bg-[#212122] shadow-xl">
+    <div data-aos="zoom-in" className="card  md:card-side bg-[#212122] shadow-xl">
     <div className= 'w-2/5 h-full'><img className='h-full' src={`${image}`} alt="Album"/></div>
     <div className="card-body">
       <h2 className="card-title text-[#edac07]">{title}</h2>
