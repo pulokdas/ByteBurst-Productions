@@ -16,7 +16,7 @@ export const Services = ({data}) => {
     <div data-aos="zoom-in" className="" >
       <h1 data-aos="fade-up" className="text-4xl text-center mt-5 mb-4 ">Our Services</h1>
       <div className=" w-2/3 mx-auto  rounded-lg">
-      <div className=" py-6 grid  grid-cols-3 gap-6 w-11/12 mx-auto  ">
+      <div className=" py-6 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-6 w-11/12 mx-auto  ">
       {
         services.slice(3, 9).map(service=> <ServiceCard service={service} />)
       }

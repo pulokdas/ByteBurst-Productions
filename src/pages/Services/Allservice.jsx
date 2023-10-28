@@ -8,7 +8,7 @@ export const Allservice = () => {
     const {services} = data;
   return (
     <div>
-        <div className=" py-6 grid  grid-cols-4 gap-6 w-10/12 mx-auto  ">
+        <div className=" py-6 grid grid-cols-1 md:grid-cols-2  lg:grid-cols-4 gap-6 w-10/12 mx-auto  ">
       {
         services.map(service=> <ServiceCard service={service} />)
       }
