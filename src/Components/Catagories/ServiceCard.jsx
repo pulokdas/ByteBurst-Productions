@@ -4,7 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 export const ServiceCard = ({ service }) => {
 
-  const { title, image, price, duration , id } = service;
+  const { title, image, price, duration ,description, id } = service;
   useEffect(() => {
     AOS.init({
       duration: 2000, // Animation duration in milliseconds
@@ -22,6 +22,7 @@ export const ServiceCard = ({ service }) => {
           <p className='opacity-80 text-sm'><span className='font-bold'>Duration:</span> {duration}</p>
           <p className='opacity-80 text-sm'><span className='font-bold '>Price:</span> {price}</p>
         </div>
+        <p>{description.slice(0, 30)}...</p>
         <div className="card-actions ">
           <Link to={`services/${id}`}>
             <button className="btn w-full btn-sm btn-outline font-extrabold text-[#edac07] border-[#edac07] hover:bg-[#edac07]">View Details</button>
