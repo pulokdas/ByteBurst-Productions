@@ -17,6 +17,16 @@ export const Registration = () => {
     const email = e.target.email.value;
     const password = e.target.password.value;
     console.log(name);
+
+    const passwordRegex = /^(?=.*[A-Z])(?=.*[!@#$%^&*])(?=.{6,})/;
+    if (!passwordRegex.test(password)) {
+      seterror(
+        'Password must have at least 6 characters, a capital letter, and a special character.'
+      );
+      return; // Don't proceed with registration
+    }
+
+
     createUser(email, password)
 
       .then(() => {

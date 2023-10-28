@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "eventId": 1,
+      "name": "Alice Smith",
+      "rating": 5,
+      "comment": "I attended the Web Development Workshop, and it was fantastic! The content was very informative, and the instructors were knowledgeable. Highly recommended."
+    }, 
+    {
+      "id": 2,
+      "eventId": 3,
+      "name": "Bob Johnson",
+      "rating": 4,
+      "comment": "The React Native Meetup was a great experience. I got to network with fellow developers and learned about the latest React Native developments."
+    },
+    {
+      "id": 3,
+      "eventId": 6,
+      "name": "Eva Davis",
+      "rating": 5,
+      "comment": "The AI in Healthcare Symposium was eye-opening. The speakers shared valuable insights, and I left with a better understanding of AI in healthcare."
+    },
+    {
+      "id": 4,
+      "eventId": 8,
+      "name": "Charlie Brown",
+      "rating": 4,
+      "comment": "The CodeFest Hackathon was a fun challenge. It tested my coding skills, and I met some great fellow developers."
+    },
+    {
+      "id": 5,
+      "eventId": 10,
+      "name": "Grace Wilson",
+      "rating": 5,
+      "comment": "I attended the Data Science Workshop, and it was fantastic. I learned a lot about data analysis and machine learning."
+    },
+    {
+      "id": 6,
+      "eventId": 14,
+      "name": "David Lee",
+      "rating": 4,
+      "comment": "The Hack4Good Hackathon was a rewarding experience. I had the chance to use my coding skills for a good cause."
+    },
+    {
+      "id": 7,
+      "eventId": 15,
+      "name": "Olivia Martin",
+      "rating": 5,
+      "comment": "The Cybersecurity Lecture was very informative. I now have a better understanding of cybersecurity threats and defenses."
+    },
+    {
+      "id": 8,
+      "eventId": 12,
+      "name": "Michael White",
+      "rating": 4,
+      "comment": "The Digital Marketing Seminar had insightful presentations. I learned a lot about SEO and social media marketing."
+    }
+  ]
+  

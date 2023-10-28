@@ -14,7 +14,7 @@ export const Services = ({data}) => {
     }, []);
   return (
     <div data-aos="zoom-in" className="" >
-      <h1 className="text-4xl text-center mt-5 mb-4 ">Our Services</h1>
+      <h1 data-aos="fade-up" className="text-4xl text-center mt-5 mb-4 ">Our Services</h1>
       <div className=" w-2/3 mx-auto  rounded-lg">
       <div className=" py-6 grid  grid-cols-3 gap-6 w-11/12 mx-auto  ">
       {

@@ -16,7 +16,7 @@ export const Login = () => {
     console.log(name);
     SignInUser(email, password)
       .then(()=>{
-        
+        navigate('/');
         toast.success('Login successful', {
           position: 'bottom-right',
           autoClose: 2000, 
@@ -29,12 +29,16 @@ export const Login = () => {
         });
            
           
-            navigate('/');
+            
           
         
       })
       .catch( error=>{
-        seterror(error.message);
+        if (error.code === 'auth/invalid-login-credentials' || error.code === 'auth/user-not-found') {
+          seterror('Email or password is incorrect.');
+        } else {
+          seterror(error.code);
+        }
         
       }   )
       

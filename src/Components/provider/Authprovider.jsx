@@ -42,15 +42,14 @@ export  const Authprovider = ({children}) => {
        return signInWithEmailAndPassword(auth, email, password)
     }
     const logOut =()=>{
-      return signOut(auth);
       setloading(true);
+      return signOut(auth);
     }
     
     const Authinfo ={
       user,
       loading,
-      createUser,
-     
+      createUser,     
       SignInUser,
       logOut
     }

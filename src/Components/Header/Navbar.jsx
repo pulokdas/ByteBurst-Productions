@@ -39,7 +39,7 @@ export const Navbar = () => {
                             </NavLink>
                         </li>
                         <li className=" p-1 font-sans text-sm font-normal leading-normal text-inherit ">
-                            <NavLink to="/Events" className={({ isActive, isPending }) =>
+                            <NavLink to="/events" className={({ isActive, isPending }) =>
                                 isPending ? "pending" : isActive ? " text-[#edac07]" : ""
                             }>
                                 EVENTS
