@@ -27,9 +27,9 @@ const EventCard = (event) => {
   }
   useEffect(() => {
     AOS.init({
-      duration: 2500, // Animation duration in milliseconds
-       // Whether animations should only happen once while scrolling down
-    });// Initialize AOS in your component if you didn't do it in the main application file
+      duration: 2500, 
+       
+    });
   }, []);
   return (
     <div data-aos="zoom-in" className="card  md:card-side bg-[#212122] shadow-xl">
